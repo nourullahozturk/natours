@@ -1,7 +1,6 @@
 .row {
   max-width: $grid-width;
   margin: 0 auto;
-  background-color: #eee;
 
   // Every row except the last one. (last child of section element)
   // Note: last-child property needs a wrapper element
@@ -14,7 +13,6 @@
   // attribute selector []. For example [alt="Logo"] { ... }
   // ^= means starts with, *= means any classes that contain this word, $= ends with
   [class^="col-"] {
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {
